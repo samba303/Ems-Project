@@ -1,0 +1,182 @@
+.dashboard-container {
+    width: 90%;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #eef7ee;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.employee-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: orange;
+    color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.table {
+    background-color: #f8f1e7 !important;
+}
+
+.table td {
+    background-color: #f8f1e7 !important;
+}
+
+.table th {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .table td,
+.dark-mode .table th {
+    background-color: #2c2c2c !important;
+    color: white !important;
+}
+
+.dark-mode .card {
+    background-color: #2c2c2c !important;
+    color: white !important;
+}
+
+.dark-mode input {
+    background-color: #333 !important;
+    color: white !important;
+    border: 1px solid #555;
+}
+
+.dark-mode {
+    background-color: #121212;
+    min-height: 100vh;
+    color: white;
+    transition: 0.3s;
+}
+
+/* KEEP TABLE WHITE */
+.dark-mode table {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* KEEP TABLE HEAD DARK */
+.dark-mode .table-dark {
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+/* TABLE ROWS */
+.dark-mode td,
+.dark-mode th {
+    color: black !important;
+}
+
+/* FORM CARDS */
+.dark-mode .card {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+/* INPUTS */
+.dark-mode input {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid #555;
+}
+
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background: #111827;
+    padding: 20px;
+}
+
+.sidebar-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar-link:hover {
+    background-color: #374151;
+}
