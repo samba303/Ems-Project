@@ -43,3 +43,28 @@ It allows users to manage employee data with authentication and CRUD operations.
 ```bash
 cd Employee-Backend
 mvn spring-boot:run
+
+# Project Screenshots
+
+## 🔐 Login Page
+[Login Page](login-page.png)
+
+---
+
+## 📊 Dashboard
+[Dashboard](dashboard.png)
+
+---
+
+## 👨‍💼 Employee Management
+[Employee Management](employee-management.png)
+
+---
+
+## 📈 Analytics Dashboard
+[Analytics](analytics.png)
+
+---
+
+## ⚙️ Settings Page
+[Settings](settings.png)
